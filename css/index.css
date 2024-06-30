@@ -1,0 +1,196 @@
+.Aboutcontent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+    background-color: aliceblue;
+    height: 200px;
+    border-radius: 2px;
+}
+.about{
+    width: 25rem;
+    color: #064199;
+}
+.about h2{
+    font-weight: 700;
+    color: #063275;
+    font-size: 2rem;
+}
+.about p{
+    margin: 10px;
+    font-size: small;
+    font-weight: 650;
+}
+.about button{
+    background: linear-gradient(90deg,#006aff, #052049);
+    border: none;
+    padding: 2px 8px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+.about button:hover{
+    background: linear-gradient(90deg,#011531, #0066ff);
+}
+.video video{
+    width: 280px;
+    border-radius: 6px;
+}
+
+
+
+.productscontainer{
+    margin-top: 10px;
+    background-color: #003f9e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.productscontainer .product{
+    width: 180px;
+    background-color: aliceblue;
+    color: #082349;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px 1px ;
+
+}
+.productscontainer .product:hover{
+    scale: 1.03;
+    color: #064199;
+}
+.productscontainer .product img{
+    width: 180px;
+    opacity: 1;
+}
+.productscontainer .product img:hover{
+    opacity: 0.9;
+}
+.productscontainer .product h3{
+    font-weight: 700;
+}
+.productscontainer .product p{
+    font-size: small;
+    margin: 7px auto;
+}
+.productscontainer .product button{
+    background: linear-gradient(90deg,#006aff, #052049);
+    border: none;
+    padding: 2px 8px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+.productscontainer .product button:hover{
+    background: linear-gradient(90deg,#011531, #0066ff);
+}
+.productscontainer .product .buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+
+
+.imges{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.imges img{
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    opacity: 1;
+}
+.imges img:hover{
+    opacity: 0.8;
+}
+
+
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #003f9e;
+    color: #fff;
+    height: 200px;
+    margin-top: 10px;
+    padding: 15px;
+}
+.contact h2{
+    font-weight: 700;
+}
+.contact .links{
+    margin-top: 15px;
+}
+.contact .links i{
+    font-size: large;
+    margin: 5px 10px;
+    cursor: pointer;
+    background-color: #003f9e;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    transition: 0.3s ease-in;
+}
+.contact .links i:hover{
+    background-color: #fff;
+    color: #003f9e;
+}
+.contact .links i:active{
+    scale: 0.8;
+}
+.contact .links #facebook{
+    padding: 5px 8px;
+}
+.contact .links #instagram{
+    padding: 5px 6px;
+}
+.contact .links #linkedin{
+    padding: 5px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (width < 600px){
+    .about h2{
+        font-size: 1.2rem;
+    }
+    .about p{
+        font-size: x-small;
+    }
+    .smart-img i{
+        font-size: 100px;
+
+    }
+    .video video{
+        width: 150px;
+    }
+    .imges img{
+        width: 140px;
+    }
+
+}

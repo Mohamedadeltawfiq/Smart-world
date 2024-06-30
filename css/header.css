@@ -1,0 +1,134 @@
+header{
+    
+    background: url(../imges/background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-inline: 20px;
+}
+header nav .left a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1rem;
+    padding: 2px 5px;
+    border-radius: 6px;
+}
+header nav .left a:hover{
+    background: linear-gradient(90deg,#006aff, #041e44);
+}
+header nav .logo i{
+    color: #fff;
+    font-size: 2.2rem;
+    transition: 0.2s ease-in;
+}
+header nav .logo i:hover{
+    color: #7db2fd;
+}
+header nav .right a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 1rem;
+    padding: 2px 5px;
+    border-radius: 6px;
+}
+header nav .right a:hover{
+    background: linear-gradient(90deg,#006aff, #041e44);
+}
+.home {
+    margin-top: 110px;
+    text-align: center;
+    margin-inline: auto;
+}
+.home p{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 3px;
+}
+header .home span{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+
+/* dropbar------------------------ */
+.dropbar ul{
+    list-style: none;
+    display: flex;
+}
+ul li ul.bar li{
+    display: block;
+    margin: 5px;
+}
+ul li ul.bar{
+    width: 110px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+ul li:hover ul.bar{
+    display: block;
+}
+.dropbar a{
+    color:#041e44 ;
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    transition: 0.5s ease-in;
+}
+.dropbar a:hover{
+    background: linear-gradient(90deg,#006aff, #041e44);
+    color: #fff; 
+}
+.dropbar i{
+    color: #fff;
+}
+/* ----------------------------------------------- */
+
+
+
+
+
+
+@media (width < 600px){
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        margin-inline: 15px;
+    }
+    header nav .left{
+        display: none;
+    }
+    header nav .right{
+        display: none;
+    }
+    header .home{
+        margin-top: 120px;
+    }
+    header .content p{
+        font-size: 0.9rem;
+    }
+    header .content span{
+        font-size: 1.2rem;
+    }
+
+}
+@media (width > 600px){
+    .dropbar{
+        display: none;
+    }
+}

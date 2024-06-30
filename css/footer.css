@@ -1,0 +1,27 @@
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    position: fixed;
+    margin: 5px;
+    bottom: 20px;
+    left: 1px;
+    font-size: 14px;
+}
+footer i{
+    color: #fff;
+    background-color: #003f9e;
+    padding: 2px 5px;
+    padding-bottom: 2px;
+    border-radius: 50%;
+    transition: 0.3s ease-in;
+    
+}
+footer i:hover{
+    color: #003f9e;
+    background-color: #fff;
+    font-size: large;
+}

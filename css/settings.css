@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(90deg,#006aff, #041e44);
+}
+.settingbar
+{
+    color: #EADBC8;
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 10px;
+    margin-inline: auto;
+    
+}
+.settingbar i
+{
+    padding: 7px;
+    margin: 6px 3px;
+}
+.settingbar p
+{
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.settingbar p:hover
+{
+    color:rgb(120, 162, 240);
+}
+#notifications{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s ease-in;
+}
+#notifications:hover{
+    color:rgb(120, 162, 240);
+}
+
+
+
+
+
+
+@media (width < 600px){
+    .settingbar{
+        font-size: small;
+    }
+}

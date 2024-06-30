@@ -1,0 +1,32 @@
+.right ul{
+    list-style: none;
+    display: flex;
+}
+ul li ul.dropdown li{
+    display: block;
+    margin: 15px auto;
+}
+ul li ul.dropdown{
+    width: 110px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+ul li ul.dropdown a{
+    color:#041e44 ;
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 6px;
+    transition: 0.5s ease-in;
+    font-size: 0.9rem;
+}
+ul li ul.dropdown a:hover{
+    background: linear-gradient(90deg,#006aff, #041e44);
+    color: #fff; 
+}
